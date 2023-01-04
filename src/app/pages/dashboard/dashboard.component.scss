@@ -1,0 +1,37 @@
+.header-app{
+  position: relative;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.header-app .logo-app{
+  position: relative;
+  width: 5rem;
+}
+
+.logo-app img{
+  width: 100%;
+}
+
+.container-funcionalidades{
+  position: relative;
+}
+
+.container-funcionalidades .card-funcionalidade{
+  border-radius: 1rem;
+  padding: 1rem;
+  width: 12rem;
+  position: relative;
+  text-align: center;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+
+.card-funcionalidade .logo-funcionalidade{
+  width: 100%;
+}
+
+.card-funcionalidade .nome-funcionalidade{
+  margin-top: 1rem;
+}

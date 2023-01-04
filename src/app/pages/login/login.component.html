@@ -4,19 +4,19 @@
 
     <!-- Icon -->
     <div class="fadeIn first">
-      <img src="http://danielzawadzki.com/codepen/01/icon.svg" id="icon" alt="User Icon" />
+      <img src="http://danielzawadzki.com/codepen/01/icon.svg" id="icon" alt="logo do App Alpha" />
     </div>
 
     <!-- Login Form -->
     <form>
-      <input type="text" id="cpf" class="fadeIn second" name="cpf" placeholder="CPF">
-      <input type="text" id="senha" class="fadeIn third" name="senha" placeholder="senha">
-      <input type="submit" class="fadeIn fourth" value="entrar">
+      <input type="text" id="cpf" class="fadeIn second" name="cpf" placeholder="CPF" [(ngModel)]="cpf">
+      <input type="text" id="senha" class="fadeIn third" name="senha" placeholder="senha" [(ngModel)]="senha">
+      <input type="button" class="fadeIn fourth" value="entrar" (click)="entrar()">
     </form>
 
     <!-- Remind Passowrd -->
     <div id="formFooter">
-      <a class="underlineHover" href="#">Esqueci a senha</a>
+      <a class="underlineHover" (click)="esqueciSenha()">Esqueci a senha</a>
     </div>
 
   </div>
