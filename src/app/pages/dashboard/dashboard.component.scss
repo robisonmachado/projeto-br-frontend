@@ -9,6 +9,11 @@
   width: 5rem;
 }
 
+.header-app .nome-app{
+  color: black;
+  text-transform: uppercase;
+}
+
 .logo-app img{
   width: 100%;
 }
@@ -20,18 +25,23 @@
 .container-funcionalidades .card-funcionalidade{
   border-radius: 1rem;
   padding: 1rem;
-  width: 12rem;
+  width: 9rem;
   position: relative;
   text-align: center;
   font-weight: 600;
   cursor: pointer;
+  _background-color: lightblue;
+  align-self: stretch;
+  border: .25rem solid darkgray;
 }
 
 
 .card-funcionalidade .logo-funcionalidade{
   width: 100%;
+  _background-color: bisque;
 }
 
 .card-funcionalidade .nome-funcionalidade{
   margin-top: 1rem;
+  _background-color: aquamarine;
 }
