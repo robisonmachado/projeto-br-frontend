@@ -14,7 +14,7 @@ export class DashboardComponent {
 
   irParaContracheque(){
     const url = 'https://contracheque.cachoeiro.es.gov.br/portal/login'
-    window.open(url)
+    window.open(url, '_blank')
     //this.router.navigate(['contracheque'])
   }
 
