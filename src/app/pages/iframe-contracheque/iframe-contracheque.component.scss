@@ -1,0 +1,33 @@
+.iframe-contracheque-container{
+  width: 100vw;
+  height:100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #5d96bd;
+}
+
+.navbar{
+  width: 100%;
+  display: flex;
+  padding: 1rem;
+}
+
+.botao-voltar{
+  border: .25rem solid black;
+  padding: .25rem .5rem;
+  border-radius: .5rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.botao-voltar:hover{
+  border: .25rem solid red;
+}
+
+.site-contracheque{
+  width: 100%;
+  flex-grow: 1;
+
+}
+

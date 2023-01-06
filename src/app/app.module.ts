@@ -4,16 +4,21 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { IframeContrachequeModule } from './pages/iframe-contracheque/iframe-contracheque.module';
+import { CustomPipesModule } from './pipes/custom-pipes.module';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    CustomPipesModule,
+    IframeContrachequeModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
