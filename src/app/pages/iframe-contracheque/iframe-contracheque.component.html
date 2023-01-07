@@ -4,7 +4,13 @@
     <div class="botao-voltar" (click)="voltar()">voltar</div>
   </div>
 
-  <iframe title="site-contracheque" class="site-contracheque" frameborder="0" [src]="url | safeUrl"> </iframe>
+  <!-- <iframe title="site-contracheque" class="site-contracheque" frameborder="0" [src]="url | safeUrl"> </iframe> -->
+  <!-- <embed class="site-contracheque" [src]="url | safeUrl"/> -->
+
+  <object [data]="url | safeUrl" class="site-contracheque" type="text/html">
+    Alternative Content
+</object>
+
 </div>
 
 
