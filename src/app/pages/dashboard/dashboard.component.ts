@@ -30,7 +30,9 @@ export class DashboardComponent {
 
   abrirCIA(){
     console.log('abrindo CIA...');
-    this.router.navigate(['cia'])
+    //this.router.navigate(['cia'])
+    const url = 'http://gcmm.unicorpconsultoria.com'
+    window.open(url)
   }
 
   abrirBU(){

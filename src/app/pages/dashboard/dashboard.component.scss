@@ -1,7 +1,19 @@
+.dashboard-container{
+  position: relative;
+}
+
+.bem-vindo{
+  position: absolute;
+  right: 1vw;
+  top: 1vh;
+  font-weight: bold;
+}
+
 .header-app{
   position: relative;
   font-size: 2rem;
   font-weight: 600;
+
 }
 
 .header-app .logo-app{
