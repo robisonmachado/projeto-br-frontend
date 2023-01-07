@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class CalendarioPagamentoComponent {
 
+  pdfSrc = 'assets/calendario-pagamento.pdf'
+
 }

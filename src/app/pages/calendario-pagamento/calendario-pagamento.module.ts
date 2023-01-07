@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { CalendarioPagamentoRoutingModule } from './calendario-pagamento-routing.module';
 import { CalendarioPagamentoComponent } from './calendario-pagamento.component';
+import { PdfViewerModule } from 'ng2-pdf-viewer';
 
 
 @NgModule({
@@ -11,7 +12,8 @@ import { CalendarioPagamentoComponent } from './calendario-pagamento.component';
   ],
   imports: [
     CommonModule,
-    CalendarioPagamentoRoutingModule
+    CalendarioPagamentoRoutingModule,
+    PdfViewerModule,
   ]
 })
 export class CalendarioPagamentoModule { }
